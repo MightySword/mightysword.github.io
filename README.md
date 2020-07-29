@@ -1,2 +1,2 @@
-# narms-is-precious.github.io
-narms is epic
+# MightySword.github.io
+narms is pretty sweet yea?
