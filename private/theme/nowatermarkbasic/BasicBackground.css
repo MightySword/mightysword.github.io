@@ -18,6 +18,12 @@
 
 }
 
+/* ~~~~		GUILDCOUNTER		~~~~ */
+
+#gc-counter { 
+	color: white;
+}
+
 /* ~~~~		DEWATERMARK		~~~~ */
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3 > div.wordmark-2iDDfm {
