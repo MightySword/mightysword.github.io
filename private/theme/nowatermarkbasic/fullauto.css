@@ -1,7 +1,22 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css);
+@import url("https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css");
 
+:root {
+	
+/* Radial status*/
 
+	--rs-small-spacing: 0px;  /* spacing between avatar and status */
+	--rs-large-spacing: 0px;  /* spacing between avatar and status for user popouts & modals/profiles */
+	--rs-width: 2px;  /* Width/thickness of status border */
+	--rs-avatar-shape: 0;  /* 50% for round - 0% for square */
+	--rs-online-color: #43b581;  /* color for online status */
+	--rs-idle-color: #faa61a;  /* color for idle status */
+	--rs-dnd-color: #f04747;  /* color for dnd status */
+	--rs-offline-color: #636b75;  /* color for offline status */
+	--rs-streaming-color: #643da7;  /* color for streaming status */
+	--rs-invisible-color: #747f8d;  /* color for invisible status - Note this will only show for your own invisibility */
 
+}
 
 /* ~~~~		DEWATERMARK		~~~~ */
 
