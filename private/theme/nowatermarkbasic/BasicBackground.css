@@ -24,6 +24,17 @@
 	color: white;
 }
 
+/* ~~~~		ROUND SERVERS		~~~~ */
+
+.wrapper-1Rf91z .expandedFolderBackground-2sPsd-, .wrapper-1Rf91z .folder-21wGz3, .wrapper-1Rf91z .folderIconWrapper-226oVY, .wrapper-1Rf91z .iconSizeSmol-2Dw61G, .wrapper-1Rf91z {
+  border-radius: 0px;
+}
+.listItem-2P_4kh * {
+  -webkit-mask: none;
+          mask: none;
+  border-radius: 0px;
+}
+
 /* ~~~~		DEWATERMARK		~~~~ */
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3 > div.wordmark-2iDDfm {
