@@ -107,3 +107,24 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 	transform: unset !important;
 	animation: unset !important;
 }
+
+/* ~~~~		custom wordmark		~~~~ */
+
+@import url(https://botatooo.github.io/css-snippets/discord-logo-font/discord.css);
+.wordmark-2iDDfm:after {
+    content: "DISCORDN'T";
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    font-family: "Discord";
+}
+
+.wordmark-2iDDfm svg {
+  display:none;
+}
+
+.wordmark-2iDDfm {
+    max-width:90vw;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
