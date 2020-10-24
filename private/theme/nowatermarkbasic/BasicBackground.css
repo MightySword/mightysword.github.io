@@ -37,6 +37,21 @@
 
 /* ~~~~		DEWATERMARK		~~~~ */
 
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3 > div.wordmark-2iDDfm::after {
+	content: "" !important;
+	display: none !important;
+	position: absolute !important;
+	top: unset !important;
+	left: unset !important;
+	bottom: unset !important;
+	right: unset !important;
+	opacity: 1 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	visibility: visible !important;
+	transform: unset !important;
+	animation: unset !important;
+}
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp > div.layers-3iHuyZ.layers-3q14ss > div.layer-3QrUeG.baseLayer-35bLyl + div.layer-3QrUeG > div.standardSidebarView-3F1I7i:after {
 	content: "" !important;
 	display: none !important;
@@ -91,26 +106,4 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 	right: unset !important;
 	transform: unset !important;
 	animation: unset !important;
-}
-
-/* ~~~~		custom wordmark		~~~~ */
-
-@import url(https://botatooo.github.io/css-snippets/discord-logo-font/discord.css);
-html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3 > div.wordmark-2iDDfm::after {
-    content: "DISCORDN'T";
-    display: inline !important;
-    font-size: 14px;
-    font-weight: 700;
-    white-space: nowrap;
-    font-family: "Discord";
-}
-
-.wordmark-2iDDfm svg {
-  display:none;
-}
-
-.wordmark-2iDDfm {
-    max-width:90vw;
-    overflow:hidden;
-    text-overflow:ellipsis;
 }
