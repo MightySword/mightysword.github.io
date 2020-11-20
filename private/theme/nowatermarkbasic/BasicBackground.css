@@ -18,7 +18,7 @@
 
 }
 
-/* ~~~~		ROUND SERVERS		~~~~ */
+/* ~~~~		ROUNDN'T SERVERS		~~~~ */
 
 .wrapper-1Rf91z .expandedFolderBackground-2sPsd-, .wrapper-1Rf91z .folder-21wGz3, .wrapper-1Rf91z .folderIconWrapper-226oVY, .wrapper-1Rf91z .iconSizeSmol-2Dw61G, .wrapper-1Rf91z {
   border-radius: 0px;
@@ -28,6 +28,24 @@
           mask: none;
   border-radius: 0px;
 }
+
+
+/* ~~~~		other square things		~~~~ */
+
+.spoilerText-3p6IlD {border-radius: 0;}
+
+.imageWrapper-2p5ogY, .embed-IeVjo6, .notice-2FJMB4 {border-radius: 0;}
+.embedImage-2W1cML, .embedThumbnail-2Y84-K, .embedVideo-3nf0O9 {
+	img, video {border-radius: 0;}
+}
+
+.channelTextArea-rNsIhG, .channelTextArea-2VhZ6z {
+	& > .webkit-HjD9Er {
+		border-radius: 0;
+	}
+}
+
+
 
 /* ~~~~		kewl people		~~~~ */
 
