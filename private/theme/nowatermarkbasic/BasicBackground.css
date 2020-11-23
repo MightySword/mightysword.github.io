@@ -1,6 +1,8 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css);
 @import url(https://jaywilson7.github.io/BorderShapes/Source/BorderShapes.css);
 
+/* ~~~~		SQUARES		~~~~ */
+
 :root {
    --borders-buttons-1: 0px; /*Border shapes for most buttons. 20px for circle, 0px for square*/
    --borders-buttons-2: 0px; /*Border shapes for categories, channels and users. 20px for circle, 0px for square*/
@@ -87,10 +89,12 @@
    --borders-color-activity: #6c82cf; /*Borders color for elements on activity background. Default - #6c82cf*/
 }
 
+/* ~~~~		SQUARES STATUS PATCHED		~~~~ */
+
 #app-mount .wrapper-3t9DeA foreignObject[mask*=mobile]:after {
    -webkit-mask-size: 15%;
-   top: 85%;
-   left: 90%;
+   top: 83%;
+   left: 88%;
    background-color: #f33;
 }
 
