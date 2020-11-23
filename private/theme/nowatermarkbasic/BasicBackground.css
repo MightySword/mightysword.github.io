@@ -1,49 +1,5 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css);
-@import url("https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css");
-
-:root {
-	
-/* square avatars and status*/
-
-	--rs-small-spacing: 0px;  /* spacing between avatar and status */
-	--rs-large-spacing: 0px;  /* spacing between avatar and status for user popouts & modals/profiles */
-	--rs-width: 2px;  /* Width/thickness of status border */
-	--rs-avatar-shape: 0;  /* 50% for round - 0% for square */
-	--rs-online-color: #43b581;  /* color for online status */
-	--rs-idle-color: #faa61a;  /* color for idle status */
-	--rs-dnd-color: #f04747;  /* color for dnd status */
-	--rs-offline-color: #636b75;  /* color for offline status */
-	--rs-streaming-color: #643da7;  /* color for streaming status */
-	--rs-invisible-color: #747f8d;  /* color for invisible status - Note this will only show for your own invisibility */
-
-}
-
-/* ~~~~		ROUNDN'T SERVERS		~~~~ */
-
-.wrapper-1Rf91z .expandedFolderBackground-2sPsd-, .wrapper-1Rf91z .folder-21wGz3, .wrapper-1Rf91z .folderIconWrapper-226oVY, .wrapper-1Rf91z .iconSizeSmol-2Dw61G, .wrapper-1Rf91z {
-  border-radius: 0px;
-}
-.listItem-2P_4kh * {
-  -webkit-mask: none;
-          mask: none;
-  border-radius: 0px;
-}
-
-
-/* ~~~~		other square things		~~~~ */
-
-.spoilerText-3p6IlD {border-radius: 0;}
-
-.imageWrapper-2p5ogY, .embed-IeVjo6, .notice-2FJMB4 {border-radius: 0;}
-.embedImage-2W1cML, .embedThumbnail-2Y84-K, .embedVideo-3nf0O9 {
-	img, video {border-radius: 0;}
-}
-
-.channelTextArea-rNsIhG, .channelTextArea-2VhZ6z {
-	& > .webkit-HjD9Er {
-		border-radius: 0;
-	}
-}
+@import url(https://jaywilson7.github.io/BorderShapes/Source/BorderShapes.css);
 
 
 
