@@ -68,8 +68,8 @@
 }
 
 
-#app-mount .wrapper-3t9DeA foreignObject[mask*=mobile]:after {
-  margin-right: -65px;
+#app-mount .wrapper-3t9DeA foreignObject[mask*="url(#svg-mask-avatar-status-mobile-80)"] {
+  x: 75%;
 }
 /* ~~~~		kewl people		~~~~ */
 
