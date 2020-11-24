@@ -1,13 +1,13 @@
 @import url(https://mightysword.github.io/private/theme/nowatermarkbasic/BasicBackground.css);
 
 :root {
-	--transparencycolor: 16,16,16;		/* default: 0,0,0 */
-    --transparencyalpha: 0.05;		/* default: 0.15 */
-    --messagetransparency: 0.5;		/* default: 0.5 */
-    --guildchanneltransparency: 0.4;	/* default: 0.15 (additional darkness for guild/channel list can be changed in case a bright background makes the list hard to read) */
+	--transparencycolor: 32,32,32;		/* default: 0,0,0 */
+    --transparencyalpha: 0.25;		/* default: 0.15 */
+    --messagetransparency: 0.25;		/* default: 0.5 */
+    --guildchanneltransparency: 0.25;	/* default: 0.15 (additional darkness for guild/channel list can be changed in case a bright background makes the list hard to read) */
     --memberlistransparency: 0;		/* default: 0 (additional darkness for member list can be changed in case a bright background makes the list hard to read)*/
     --accentcolor: 188,188,0; 		/* default: 190,78,180 discord: 114,137,218 bd-blue: 58,113,193*/
-    --background: #000000; /* replace the link in url() with your own direct image link to change the background */
+    --background: black; /* replace the link in url() with your own direct image link to change the background */
     --backdrop: rgba(0,0,0,0.4);	/* default: rgba(0,0,0,0.4) can also be changed to an image like --background */
     --backgroundblur: 0px;				/* default: 0px only works when --background is set to an image */
 	--popoutblur: 0px;					/* default: 0px only works when --background is set to an image */
