@@ -6,7 +6,7 @@
 	--messagetransparency: 0.25;			/* default: 0.5 */
 	--guildchanneltransparency: 0.25;		/* default: 0.15 (additional darkness for guild/channel list can be changed in case a bright background makes the list hard to read) */
 	--memberlistransparency: 0.25;			/* default: 0 (additional darkness for member list can be changed in case a bright background makes the list hard to read)*/
-	--accentcolor: 222,61,1; 			/* default: 190,78,180 discord: 114,137,218 bd-blue: 58,113,193*/
+	--accentcolor: 192,192,192; 			/* default: 190,78,180 discord: 114,137,218 bd-blue: 58,113,193*/
 	--background: black; 				/* replace the link in url() with your own direct image link to change the background */
 	--backdrop: rgba(0,0,0,0.4);			/* default: rgba(0,0,0,0.4) can also be changed to an image like --background */
 	--backgroundblur: 0px;				/* default: 0px only works when --background is set to an image */
