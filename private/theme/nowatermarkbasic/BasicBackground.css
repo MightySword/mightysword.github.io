@@ -98,6 +98,13 @@
 	background-color: #f33;
 }
 
+/* ~~~~		MORE DAMN PATCHES		~~~~ */
+
+#app-mount .lowerBadge-29hYVK,
+#app-mount .upperBadge-2XnnGB {
+   box-shadow: none;
+}
+
 /* ~~~~		kewl servers		~~~~ */
 
 [src="https://cdn.discordapp.com/icons/740478947804053596/2e452b12e67eafc171eb1dd155d354bc.webp?size=128"] {
