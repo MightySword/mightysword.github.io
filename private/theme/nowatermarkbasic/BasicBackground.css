@@ -72,8 +72,8 @@
 	--user-status-width-small: 2px; /*Border width for status for small avatars. Default - 2px*/
 	--user-status-spacing-large: 0px; /*Spacing between statuses and large avatars. Default - 1px*/
 	--user-status-spacing-small: 0px; /*Spacing between statuses and small avatars. Default - 1px*/
-	--background-opacity-mobile: 0; /*Background opacity for "Online via Mobile" statuses. Default - 0.6*/
-	--background-opacity-typing: 0.5; /*Background opacity for "Typing" indicators. Default - 0.6*/
+	--background-opacity-mobile: none; /*Background opacity for "Online via Mobile" statuses. Default - 0.6*/
+	--background-opacity-typing: 0.25; /*Background opacity for "Typing" indicators. Default - 0.6*/
 	--status-color-online: #43b581; /*Color for "Online" statuses. Default - #43b581*/
 	--status-color-idle: #faa61a; /*Color for "Idle" statuses. Default - #faa61a*/
 	--status-color-dnd: #f04747; /*Color for "Do Not Disturb" statuses. Default - #f04747*/
